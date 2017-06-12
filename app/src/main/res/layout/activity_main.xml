@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    tools:context="com.example.ankitaman.smartlock.MainActivity">
+
+
+    <EditText
+        android:id="@+id/editUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="email / number"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="27dp" />
+
+    <EditText
+        android:id="@+id/editPwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="password"
+        android:inputType="textPassword"
+        app:layout_constraintTop_toBottomOf="@+id/editUsername"
+        tools:layout_editor_absoluteX="65dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save\nCredentials"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="133dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete\nCredentials"
+        tools:layout_editor_absoluteX="182dp"
+        tools:layout_editor_absoluteY="133dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnHint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Load \n Hint"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="189dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnCred"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Load\nCredentials"
+        tools:layout_editor_absoluteX="182dp"
+        tools:layout_editor_absoluteY="189dp"
+        tools:ignore="MissingConstraints" />
+
+</LinearLayout>
